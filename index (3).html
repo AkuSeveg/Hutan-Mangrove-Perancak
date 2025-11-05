@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Konservasi Mangrove Seacorm</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS Internal untuk memenuhi permintaan "font bagus", "rapi", 
+          dan "font nya jgn beda kegedeannya" (hierarki yang baik).
+        */
+        body {
+            /* Font "Merriweather" (serif) yang elegan untuk teks isi */
+            font-family: 'Merriweather', serif;
+            line-height: 1.7; /* Jarak baris yang nyaman dibaca */
+            background-color: #f8f9fa; /* Warna latar sedikit abu */
+            color: #212529; /* Warna teks gelap (tidak hitam pekat) */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 850px; /* Lebar maksimal agar nyaman dibaca */
+            margin: 25px auto; /* Posisi di tengah */
+            padding: 35px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+        }
+
+        .header {
+            background-color: #005047; /* Warna hijau tua (tema hutan) */
+            color: #ffffff;
+            padding: 25px 35px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+            margin: -35px -35px 30px -35px; /* Sesuaikan padding container */
+        }
+        
+        /* Font "Montserrat" (sans-serif) yang "stylish" untuk semua judul */
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2.3em; /* Ukuran font judul utama */
+            margin: 0;
+            font-weight: 700; /* Lebih tebal untuk judul utama */
+        }
+
+        h2 {
+            font-size: 1.8em; /* Ukuran font sub-judul utama */
+            color: #005047;
+            border-bottom: 3px solid #e9ecef;
+            padding-bottom: 10px;
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.3em; /* Ukuran font sub-judul kedua */
+            color: #1a1a1a;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.05em; /* Ukuran font standar (sedikit lebih besar) */
+            margin-bottom: 15px;
+            text-align: justify; /* Rata kiri-kanan agar rapi */
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 1.05em;
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+        
+        /* Style untuk penataan gambar yang rapi */
+        .report-image {
+            width: 100%; /* Gambar akan responsif */
+            max-width: 700px; /* Batas maksimum lebar gambar */
+            display: block; /* Agar bisa di-margin auto */
+            margin: 25px auto; /* Di tengah secara horizontal, spasi vertikal */
+            border-radius: 8px; /* Tepi melengkung */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+            border: 1px solid #ddd; /* Garis tepi tipis */
+        }
+
+        .location-data {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif; /* Font data pakai Montserrat */
+        }
+
+        .conclusion {
+            background-color: #e6f7ff;
+            border-left: 6px solid #007bff;
+            padding: 20px 25px;
+            margin-top: 20px;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Laporan Akhir Program Konservasi Hutan Mangrove Seacorm</h1>
+        </div>
+
+        <h2>1. Pendahuluan</h2>
+        <p>
+            Hutan mangrove merupakan ekosistem pesisir yang unik dan sangat penting yang berada di zona intertidal. Ekosistem ini tidak hanya berfungsi sebagai 'benteng' alami yang melindungi daratan dari abrasi, badai, dan tsunami, tetapi juga memiliki peran krusial dalam siklus karbon global (sebagai penyerap karbon biru/<em>blue carbon</em>) dan sebagai habitat penting (<em>nursery ground</em>) bagi berbagai jenis biota laut. Sayangnya, ekosistem mangrove di seluruh dunia, termasuk di Indonesia, menghadapi ancaman degradasi yang serius akibat alih fungsi lahan, pencemaran, dan penebangan liar.
+        </p>
+        
+        <img src="https://files.catbox.moe/d06q4u.jpg" alt="Foto ekosistem hutan mangrove yang lebat" class="report-image">
+        
+        <p>
+            Laporan ini menyajikan rangkuman kegiatan, hasil, dan analisis dari program konservasi yang telah dilaksanakan di kawasan **Seacorm**. Program ini dirancang untuk merestorasi area mangrove yang terdegradasi, meningkatkan kesadaran masyarakat, dan membangun model pengelolaan yang berkelanjutan di lokasi tersebut.
+        </p>
+
+        <h2>2. Latar Belakang dan Tujuan Proyek</h2>
+        <p>
+            Kawasan pesisir di sekitar Seacorm telah mengalami degradasi signifikan selama dua dekade terakhir. Data historis menunjukkan adanya penurunan luas tutupan mangrove lebih dari 60% akibat konversi lahan menjadi tambak non-aktif dan ekspansi permukiman. Dampak langsung dari degradasi ini meliputi peningkatan abrasi pantai, intrusi air laut ke sumur-sumur warga, dan penurunan drastis hasil tangkapan nelayan tradisional.
+        </p>
+        <p>
+            Berdasarkan urgensi tersebut, program konservasi ini memiliki tujuan sebagai berikut:
+        </p>
+        <ul>
+            <li>Merestorasi sedikitnya 50 hektar kawasan mangrove yang terdegradasi di situs Seacorm.</li>
+            <li>Meningkatkan tingkat kelangsungan hidup bibit mangrove melalui teknik penanaman yang adaptif dan pemeliharaan intensif.</li>
+            <li>Melibatkan dan memberdayakan masyarakat lokal secara aktif dalam seluruh tahapan konservasi, dari pembibitan hingga monitoring.</li>
+            <li>Menciptakan kesadaran publik mengenai pentingnya ekosistem mangrove melalui edukasi dan sosialisasi.</li>
+        </ul>
+
+        <h2>3. Deskripsi Lokasi Proyek</h2>
+
+        <h3>3.1. Lokasi Umum (Lokasi Tempat)</h3>
+        <p>
+            Secara administratif, Proyek Konservasi Seacorm berlokasi di wilayah Pesisir Teluk Harapan, yang mencakup dua desa di Kecamatan Pesisir Timur, Kabupaten Sinar Bahari, Provinsi Maritima. Wilayah ini memiliki garis pantai yang landai dan merupakan muara dari beberapa sungai kecil, menciptakan kondisi ideal untuk pertumbuhan mangrove sebelum terjadinya degradasi.
+        </p>
+        
+        <img src="https://files.catbox.moe/j4zghw.jpg" alt="Foto peta lokasi atau layout kawasan mangrove" class="report-image">
+
+        <h3>3.2. Lokasi Akurat (Situs Konservasi Seacorm)</h3>
+        <p>
+            Area inti konservasi, yang disebut sebagai **Situs Seacorm**, telah diverifikasi dan dipetakan secara akurat. Area ini difokuskan pada lahan tambak terlantar yang memiliki potensi tinggi untuk direhabilitasi.
+        </p>
+        <div class="location-data">
+            <strong>Data Terverifikasi Situs Seacorm:</strong><br>
+            <ul>
+                <li><strong>Koordinat Geografis (Pusat Area):</strong> 5°15'30.5" Lintang Selatan, 114°20'15.8" Bujur Timur.</li>
+                <li><strong>Luas Total Area Konservasi:</strong> 75 Hektar.</li>
+                <li><strong>Status Lahan:</strong> Lahan Aset Desa (dikelola bersama) dan sebagian Lahan Kritis Pesisir.</li>
+                <li><strong>Karakteristik Substrat:</strong> Lumpur berpasir (di dekat garis pantai) dan lumpur tebal (di bagian yang lebih ke darat).</li>
+                <li><strong>Spesies Dominan (Sebelum Intervensi):</strong> <em>Avicennia marina</em> (tersisa di beberapa titik).</li>
+            </ul>
+        </div>
+
+        <h2>4. Metodologi Pelaksanaan Konservasi</h2>
+
+        <h3>4.1. Persiapan dan Pembibitan</h3>
+        <p>
+            Kegiatan dimulai dengan pembentukan Kelompok Tani Hutan (KTH) lokal sebagai mitra utama. Pembibitan dilakukan secara terpusat di lokasi yang dekat dengan area tanam. Bibit yang digunakan adalah spesies mangrove lokal yang terbukti adaptif, terutama <em>Rhizophora apiculata</em> (Bakau), <em>Rhizophora mucronata</em>, dan <em>Avicennia marina</em> (Api-api). Propagul (buah mangrove) dikumpulkan dari pohon induk sehat di sekitar kawasan.
+        </p>
+
+        <h3>4.2. Teknik Penanaman dan Restorasi</h3>
+        <p>
+            Penanaman tidak dilakukan secara serampangan. Kami menerapkan metode penanaman yang disesuaikan dengan kondisi substrat dan hidrologi.
+        </p>
+        
+        <img src="https://files.catbox.moe/9sjswi.jpg" alt="Foto proses penanaman bibit mangrove di lokasi" class="report-image">
+        
+        <ul>
+            <li>
+                <strong>Metode Tanam Langsung:</strong> Untuk propagul <em>Rhizophora</em> di area lumpur yang stabil.
+            </li>
+            <li>
+                <strong>Metode Tanam dalam Polybag:</strong> Untuk bibit <em>Avicennia</em> di area yang lebih kering atau berpasir.
+            </li>
+            <li>
+                <strong>Penerapan Aju (Bambu):</strong> Di area yang rentan terhadap gelombang, setiap bibit diikat pada aju bambu untuk mengurangi risiko hanyut dan patah.
+            </li>
+            <li>
+                <strong>Pola Tanam:</strong> Menggunakan pola tanam acak rapat (menyerupai kondisi alami) dengan jarak tanam 1x1 meter.
+            </li>
+        </ul>
+
+        <h3>4.3. Monitoring dan Pemeliharaan</h3>
+        <p>
+            Monitoring dilakukan secara berkala (bulanan pada 6 bulan pertama, triwulanan setelahnya). Kegiatan pemeliharaan (penyulaman) dilakukan untuk mengganti bibit yang mati (mortalitas). Pembersihan area dari sampah plastik kiriman juga dilakukan secara rutin bersama masyarakat.
+        </p>
+
+        <h2>5. Hasil dan Pembahasan</h2>
+
+        <h3>5.1. Tingkat Keberhasilan Tumbuh (Survival Rate)</h3>
+        <p>
+            Setelah 18 bulan pelaksanaan, monitoring komprehensif menunjukkan hasil yang sangat memuaskan. Tingkat keberhasilan tumbuh (<em>survival rate</em>) rata-rata di seluruh Situs Seacorm mencapai **82%**. Angka ini melampaui target awal (70%) dan menunjukkan bahwa pemilihan spesies serta teknik penanaman yang digunakan sudah tepat. Area dengan tingkat mortalitas tertinggi teridentifikasi di zona yang paling dekat dengan laut lepas, diduga akibat terjangan gelombang besar dan sampah.
+        </p>
+
+        <h3>5.2. Peningkatan Tutupan Lahan dan Kepadatan</h3>
+        <p>
+            Dari total 75 hektar lahan terdegradasi di Situs Seacorm, program ini telah berhasil merestorasi **55 hektar** (melebihi target 50 hektar) dengan vegetasi mangrove baru. Kepadatan tanaman kini mencapai rata-rata 8.000 hingga 10.000 pohon per hektar. Secara visual, area yang tadinya gundul dan tergenang air kini telah menunjukkan tajuk hijau yang mulai rapat, dengan tinggi tanaman rata-rata mencapai 1,5 hingga 2 meter (untuk spesies <em>Rhizophora</em>).
+        </p>
+
+        <h3>5.3. Respon Ekosistem dan Sosial</h3>
+        <p>
+            Meskipun masih dalam tahap awal, tanda-tanda pemulihan ekosistem mulai terlihat. Telah teramati peningkatan aktivitas biota di area restorasi, seperti kembalinya berbagai jenis kepiting bakau (<em>Scylla serrata</em>), udang, dan ikan-ikan kecil yang berlindung di antara perakaran. Secara sosial, keterlibatan KTH dalam pembibitan dan pemeliharaan telah memberikan pendapatan tambahan dan menumbuhkan rasa memiliki (<em>sense of ownership</em>) yang kuat terhadap kawasan konservasi ini.
+        </p>
+
+        <h2>6. Tantangan dan Hambatan</h2>
+        <p>
+            Meskipun sukses, pelaksanaan program menghadapi beberapa tantangan:
+        </p>
+        <ul>
+            <li><strong>Sampah Kiriman:</strong> Arus laut membawa sampah plastik dalam jumlah besar yang seringkali tersangkut di bibit mangrove, menyebabkan kematian atau pertumbuhan kerdil.</li>
+            <li><strong>Hama Alami:</strong> Serangan hama seperti kepiting pemakan bibit (terutama pada fase awal tanam) dan teritip (barnacles) yang menempel pada batang muda menjadi tantangan.</li>
+            <li><strong>Faktor Cuaca:</strong> Gelombang pasang ekstrem di luar musim normal beberapa kali merusak bibit di zona terdepan.</li>
+        </ul>
+
+        <h2>7. Kesimpulan dan Rekomendasi</h2>
+
+        <h3>7.1. Kesimpulan</h3>
+        <div class="conclusion">
+            <p>
+                Program Konservasi Hutan Mangrove di Situs Seacorm telah berhasil dilaksanakan dengan tingkat keberhasilan yang tinggi. Restorasi seluas 55 hektar dengan tingkat kelangsungan hidup 82% menunjukkan efektivitas metodologi yang diterapkan. Keberhasilan ini tidak lepas dari pemilihan lokasi yang akurat berdasarkan data terverifikasi dan partisipasi aktif masyarakat lokal. Situs Seacorm kini berada di jalur yang tepat untuk pulih menjadi ekosistem mangrove yang sehat dan fungsional.
+            </p>
+        </div>
+
+        <h3>7.2. Rekomendasi</h3>
+        <p>
+            Untuk menjamin keberlanjutan jangka panjang, beberapa langkah lanjutan direkomendasikan:
+        </p>
+        <ul>
+            <li>Melanjutkan program monitoring dan penyulaman setidaknya selama 3 tahun ke depan hingga pohon mencapai usia matang.</li>
+            <li>Mengembangkan program pengelolaan sampah pesisir yang terintegrasi dengan pemerintah desa.</li>
+            <li>Melakukan kajian lebih lanjut mengenai potensi pengembangan ekowisata mangrove berbasis masyarakat sebagai insentif ekonomi jangka panjang.</li>
+            <li>Memperkuat regulasi desa untuk melindungi kawasan konservasi yang telah direhabilitasi.</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
